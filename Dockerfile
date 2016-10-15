@@ -3,7 +3,7 @@ MAINTAINER  Alexey Kreelo <alexey@kreelo.net>
 WORKDIR     /
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV PHALCON_VERSION=3.0.0
+ENV PHALCON_VERSION=3.0.1
 
 # Uncomment for local build and testing
 # RUN  echo 'Acquire::http { Proxy "http://172.17.0.1:3142"; };' >> /etc/apt/apt.conf.d/01proxy
